@@ -12,11 +12,11 @@
    - [Configuración de NFS](#configuración-de-nfs)
    - [Configuración de la Base de Datos](#configuración-de-la-base-de-datos)
 4. [Scripts de Aprovisionamiento](#scripts-de-aprovisionamiento)
-   - [Balanceador](#balanceador)
-   - [NFS](#nfs)
-   - [Frontend](#frontend)
-   - [Base de Datos](#base-de-datos)
-5. [Pruebas y Resultados](#pruebas-y-resultados)
+   - [Balanceador](#APROVISIONAMIENTO-EN-BALANCEADOR)
+   - [NFS](#APROVISIONAMIENTO-DE-NFS)
+   - [Frontend](#APROVISIONAMIENTO-EN-FRONTEND(2-servidores-frontend))
+   - [Base de Datos](#APROVISIONAMIENTO-BASE-DE-DATOS)
+5. [ Resultados](#RESULTADOS)
 
 
 
@@ -390,6 +390,7 @@ sudo systemctl restart mysql
 
 ![unnamed](https://github.com/user-attachments/assets/a567505c-bda8-49e6-b11d-93fd1cc47bac)
 
+###RESULTADOS
 
 - Una vez hecho esto procederemos a conectarnos mediante la ip o el dominio con la direccion que aparece y procederemos a insertar los datos de la base de datos que hemos creado anteriormente y comprobamos
 
