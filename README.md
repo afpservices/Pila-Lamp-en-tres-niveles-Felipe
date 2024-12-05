@@ -28,16 +28,23 @@ Vamos a desplegar WordPress en AWS utilizando una arquitectura de tres capas:
 - **Capa 2 (Privada):** Servidores Frontend que alojan WordPress.
 - **Capa 3 (Privada):** Un servidor de base de datos MySQL.
 
-Solo la capa pública tendrá acceso desde el exterior. Implementaremos grupos de seguridad que aseguren la comunicación entre capas según las necesidades. Además, usaremos un dominio público y configuraremos un certificado SSL para asegurar la conexión.
+-Para ello vamos a realizar el despliegue de wordpress en aws el cual vamos a utilizar y crear una arquitectura en 3 --capas la cual contará con una sola capa publica en la capa1 y en la capa 2 y 3 (Frontend y BBDD) contara con una -----capa privada en el cual solo tendremos acceso desde el exterior a la capa publica.
+
+- Además impediremos la conectividad entre la capa1 y la capa 3 ademas de preparar los grupos de seguridad para cada --Maquina que vamos a utilizar en cada capa para poder desplegar wordpress en AWS
+
 
 ---
 
 ## Configuración y Desarrollo de la Infraestructura
 
+-Para ello vamos a crear una VPC el cual le he asignado una ip de red, en mi caso la 10.0.0.0/16
+![unnamed](https://github.com/user-attachments/assets/cbbc60b5-1ec7-4d62-a080-625ce02fea5e)
+
+
 ### Creación de Subredes
 
 1. **Capa Pública (Balanceador):**  
-   Subred: `10.0.1.0/24`.
+   SubredBalanceador: `10.0.1.0/24`.
 
 2. **Capa Privada (Frontend):**  
    Subred: `10.0.2.0/24`.
