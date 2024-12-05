@@ -402,7 +402,7 @@ sudo systemctl restart mysql
 ![unnamed](https://github.com/user-attachments/assets/1f6c4c99-4b36-4dc9-addc-7e5c615f3c91)
 
 - Observamos que todo funciona correctamente
-- 
+  
 ![unnamed](https://github.com/user-attachments/assets/d56e6e2f-de2d-4257-ae11-33777faa0257)
 
 
