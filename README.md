@@ -390,7 +390,7 @@ sudo systemctl restart mysql
 
 ![unnamed](https://github.com/user-attachments/assets/a567505c-bda8-49e6-b11d-93fd1cc47bac)
 
-###RESULTADOS
+### RESULTADOS
 
 - Una vez hecho esto procederemos a conectarnos mediante la ip o el dominio con la direccion que aparece y procederemos a insertar los datos de la base de datos que hemos creado anteriormente y comprobamos
 
