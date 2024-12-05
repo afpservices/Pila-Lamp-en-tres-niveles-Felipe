@@ -16,7 +16,7 @@
    - [NFS](#APROVISIONAMIENTO-DE-NFS)
    - [Frontend](#APROVISIONAMIENTO-EN-FRONTEND(2-servidores-frontend))
    - [Base de Datos](#APROVISIONAMIENTO-BASE-DE-DATOS)
-5. [ Resultados](#RESULTADOS)
+5. [Resultados](#RESULTADOS)
 
 
 
